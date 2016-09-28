@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content=""/>
+    <title>500万人竟然在这里找到了丢失已久的东西</title>
+    <link href="http://static.ergengtech.com/activity/2016/08/mj/css/swiper.css" rel="stylesheet" type="text/css"/>
+    <link href="http://static.ergengtech.com/activity/2016/08/mj/css/style_main_mj.css" rel="stylesheet" type="text/css"/>
+    <link href="http://static.ergengtech.com/activity/2016/08/mj/css/loader.css" rel="stylesheet" type="text/css"/>
+    <script src="http://static.ergengtech.com/activity/2016/08/mj/js/jquery-1.8.3.min.js"></script>
+    <script>   
+    (function(doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange': 'resize',
+        recalc = function() {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth >= 640) {
+                docEl.style.fontSize = '100px';
+            } else {
+                docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+            }
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    </script>
+    <style>
+    #preloadedImages {
+        width: 0px;
+        height: 0px;
+        display: inline;
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/page_01.jpg);
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/page_02.jpg);
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/cloud.jpg);
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/cloud1.gif);
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/pic_01.jpg);
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/pic_02.jpg);
+        background-image: url(http://static.ergengtech.com/activity/2016/08/mj/images/pic_scan.jpg);
+    }
+    </style>
+    <script type="text/javascript">         
+    // 等待所有加载
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+        music_one.pause();
+        music_one.play();
+    }); 
+    </script>
+</head>
+
+<body>
+<!-- 页面加载start -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">正在加载...</div>
+</div>
+<div id="preloadedImages"></div>
+<!-- 页面加载end -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page-one swiper-no-swiping">
+            <audio id="music_one" src="http://static.ergengtech.com/activity/2016/08/mj/media/call.mp3" loop="loop"></audio>
+            <a href="javascript:;" class="answer btn-start">&nbsp;</a>
+        </div> 
+        <div class="swiper-slide page-two swiper-no-swiping">
+            <div class="showtime">00:00</div>
+            <audio id="music_two" src="http://static.ergengtech.com/activity/2016/08/mj/media/sound01.mp3"></audio>
+        </div>
+        <div class="swiper-slide page-three red-pic">
+            <div class="hand-zoom"></div>
+            <div class="cloud01"></div>
+            <div class="cloud02"></div>
+            <div class="pic-01" style="display: none">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+            <img class="cloud-hide" src="http://static.ergengtech.com/activity/2016/08/mj/images/cloud1.gif" alt="">
+        </div>
+        <div class="swiper-slide page-four blue-pic">
+            <div class="pic-02">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div>
+        <div class="swiper-slide red-pic">
+            <div class="pic-03">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div> 
+        <div class="swiper-slide blue-pic">
+            <div class="pic-04">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div>
+        <div class="swiper-slide red-pic">
+            <div class="pic-05">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div>
+        <div class="swiper-slide blue-pic">
+            <div class="pic-06">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div>
+        <div class="swiper-slide red-pic">
+            <div class="pic-07">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div>
+        <div class="swiper-slide blue-pic">
+            <div class="pic-08">
+                <div class="content-pic"></div>
+                <div class="content-txt"></div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="pic-09">
+                <img src="http://static.ergengtech.com/activity/2016/08/mj/images/pic_scan.jpg" style="width: 100%; height: 100%;">
+                <img src="http://static.ergengtech.com/activity/2016/08/mj/images/share.png" alt="" class="share">
+            </div>
+        </div>
+    </div>   
+</div>
+<img src="http://static.ergengtech.com/activity/2016/08/mj/images/float.png" alt="" class="share-float">
+<div class="guide-arrow"></div>
+<div class="btn-on dn">
+    <!-- <audio id="music_three" src="http://static.ergengtech.com/activity/2016/08/mj/media/bg_music.mp3" loop="loop"></audio> -->
+    <audio id="music_three" src="" loop="loop"></audio> 
+</div>
+<div id="app_share_data" style="display: none;">
+    <div id="app_title">500万人竟然在这里找到了丢失已久的东西</div>
+    <div id="app_desc">500万人竟然在这里找到了丢失已久的东西</div>
+    <div id="app_link">http://activity.ergengtv.com/static/mj/</div>
+    <img id="app_img_url" src="http://static.ergengtech.com/activity/2016/08/mj/images/icon.jpg">
+    <img id="app_big_img_url" src="http://static.ergengtech.com/activity/2016/08/mj/images/icon.jpg">
+</div>
+<script src="http://static.ergengtech.com/activity/2016/08/mj/js/swiper.js"></script>
+<script>
+$(".share").click(function(){
+    $(".share-float").fadeIn();
+})
+$(".share-float").click(function(){
+    $(this).fadeOut()
+})
+    var mySwiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical'
+    });
+
+    var music_one = document.getElementById('music_one');
+    var music_two = document.getElementById('music_two');
+    var music_three = document.getElementById('music_three');
+
+    $(function(){
+        //music_one.volume = 0.2;
+        music_two.pause();
+        music_three.pause();
+        $('#cloud-an').trigger('pause');
+    })
+
+    //接听电话
+    $('.answer').click(function(){
+        mySwiper.slideNext();
+        music_one.pause();
+        setTimeout(function () { 
+            music_two.play();
+        }, 1000);
+        music_two.loop = false;
+
+        //检测接听声音播放完毕
+        music_two.addEventListener('ended', function () {  
+            mySwiper.slideNext();       
+        }, false);
+        $('.page-three').addClass('swiper-no-swiping');
+        mySwiper.lockSwipeToPrev();
+    });
+
+    $('.hand-zoom').click(function(){
+        // $(".swiper-slide-active").addClass("action")
+        $(this).fadeOut();
+        $(".pic-01").fadeIn(2000);
+        $('.cloud01').hide();
+        $('.cloud02').show();
+        music_two.src = 'http://static.ergengtech.com/activity/2016/08/mj/media/bg_music.mp3';
+        music_two.play();
+        $('.cloud-hide').show().fadeOut(4000);
+        $('#cloud-an').trigger('play');
+        $('.cloud02').animate({opacity: 100});
+        setTimeout(function () { 
+            $('.cloud02').animate({opacity: 0});
+        }, 2000);
+        $('.page-three').removeClass('swiper-no-swiping');
+        //mySwiper.unlockSwipeToPrev();
+        $('.guide-arrow').css("visibility","visible");
+
+        //播放背景音乐
+        setTimeout(function () { 
+            music_three.pause()
+            music_three.play();
+        }, 2000);
+        $('.btn-on').fadeIn();
+    });
+
+    //切换暂停播放音乐
+    $('.btn-on').toggle(
+        function(){
+            $(this).addClass('btn-off');
+            music_two.pause();
+        }, 
+        function(){
+            $(this).removeClass('btn-off');
+            music_two.play();
+        }
+    );
+
+var timeIndex = 0;
+$(".btn-start").click(function() {
+    setTime();
+    times = setInterval(setTime, 1000);
+});
+$(".btn-end").click(function() {
+    clearInterval(times);
+});
+function setTime() {
+    var hour = parseInt(timeIndex / 3600);
+    var minutes = parseInt((timeIndex % 3600) / 60);
+    var seconds = parseInt(timeIndex % 60);
+    hour = hour < 10 ? "0" + hour: hour;
+    minutes = minutes < 10 ? "0" + minutes: minutes;
+    seconds = seconds < 10 ? "0" + seconds: seconds;
+    $(".showtime").html(minutes + ":" + seconds);
+    timeIndex++;
+}
+</script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+$.get('http://activity.ergengtv.com/wx/jsshare', {url: location.href.split('#')[0]}, function (data) {
+                    msg = data.data
+
+                    if (data.code==200) {
+                        wx.config({
+                            debug: false,
+                            appId: msg.appId,
+                            timestamp: msg.timestamp,
+                            nonceStr: msg.nonceStr,
+                            signature: msg.signature,
+                            jsApiList: [
+                                'onMenuShareTimeline',
+                                'onMenuShareAppMessage',
+                                'onMenuShareQQ',
+                                'onMenuShareWeibo',
+                            ]
+                        });
+                    }
+                    wx.ready(function () {
+                        var news_title = "500万人竟然在这里找到了丢失已久的东西";
+                        var news_link = "http://activity.ergengtv.com/static/mj1/";
+                        //alert(getNewsLink())
+                        var news_image = "http://static.ergengtech.com/activity/2016/08/mj/images/icon.jpg";
+                        var news_intro = "500万人竟然在这里找到了丢失已久的东西";
+                        var news_Timeline = "500万人竟然在这里找到了丢失已久的东西";
+                        
+                        wx.onMenuShareTimeline({
+                            title: news_title,
+                            link: news_link,
+                            imgUrl: news_image
+                        });
+                        wx.onMenuShareAppMessage({
+                            title: news_title,
+                            desc: news_intro,
+                            link: news_link,
+                            imgUrl: news_image
+                        });
+                        wx.onMenuShareQQ({
+                            title: news_title,
+                            desc: news_intro,
+                            link: news_link,
+                            imgUrl: news_image
+                        });
+                        wx.onMenuShareWeibo({
+                            title: news_title,
+                            desc: news_intro,
+                            link: news_link,
+                            imgUrl: news_image
+                        });
+                    });
+                },'json');
+</script>
+
+    <!--百度统计-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?7f2f69dfb36906533ad3ef5c117b5f56";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>
